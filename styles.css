@@ -1,6 +1,8 @@
 #Links {
     text-align: center;
+    padding: 10px;
+    background-clip: border-box;
 }
 body {
-    background-color: aqua;
+    background-color: aquamarine;
 }
