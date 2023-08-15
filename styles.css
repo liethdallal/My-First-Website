@@ -46,3 +46,15 @@ margin: 0 auto;
 border: 5px solid black;
 border-radius: 10px;
 }
+.resumeintro{
+    text-align: left;
+}
+.education{
+    font-size: 18px;
+}
+.workinfo{
+    font-size: 18px;
+}
+.work{
+    font-size: 18px;
+}
