@@ -4,16 +4,25 @@
     justify-content: space-around;
     align-items: center; 
     padding: 20px 0;
+    color: black;
+    color: #FF5733; 
+    text-decoration: none; 
    
 }
 body {
-    background-color: aquamarine;
+    background-image: url('./img/KCTJagy\ -\ Imgur.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    font-weight: bold;
 }
 .title{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
     font-size: 50px;
+    color: black;
 }
 .linksbreak{
     border: none;
@@ -32,10 +41,12 @@ body {
 }
 h2 {
     text-align: center;
+    color: black;
 }
 .aboutmep{
     text-align: center;
     font-size: 18px;
+    color: black;
 }
 .aboutmepic{
 display: flex;
@@ -51,10 +62,13 @@ border-radius: 10px;
 }
 .education{
     font-size: 18px;
+    color: black;
 }
 .workinfo{
     font-size: 18px;
+    color: black;
 }
 .work{
     font-size: 18px;
+    color: black;
 }
