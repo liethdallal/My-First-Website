@@ -10,10 +10,7 @@
    
 }
 body {
-    background-image: url('./img/KCTJagy\ -\ Imgur.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: aquamarine;
     color: black;
     font-weight: bold;
 }
@@ -72,9 +69,10 @@ border-radius: 10px;
     font-size: 18px;
     color: black;
 }
-/* Adjust animation duration for smaller screens */
-@media screen and (max-width: 768px) {
-    body {
-        animation-duration: 10s; 
-    }
+
+.im {
+ display: inline;
+ width: 33%;
 }
+
+
