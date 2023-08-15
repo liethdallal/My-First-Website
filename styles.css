@@ -72,3 +72,9 @@ border-radius: 10px;
     font-size: 18px;
     color: black;
 }
+/* Adjust animation duration for smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+        animation-duration: 10s; 
+    }
+}
