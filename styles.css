@@ -70,5 +70,7 @@ border-radius: 10px;
     color: black;
 }
 
-
-
+.skillsdescription {
+    text-align: center;
+    font-size: 18px;
+}
