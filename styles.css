@@ -89,3 +89,10 @@ border-radius: 10px;
     border: 5px solid black;
     border-radius: 10px;
 }
+.projecthrlines{
+    border: none;
+    width: 25%;
+    height: 2px;
+    color: black;
+    background-color: black;
+}
