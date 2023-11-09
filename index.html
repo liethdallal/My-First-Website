@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="./styles.css">
 
-    <script defer src="./functions.js"></script>
+    <script defer src="./script.js"></script>
 
     <title>Home Page</title>
 
@@ -19,23 +19,39 @@
 
     <h1 class = 'title' >Lieth Dallal</h1>
 
-    <p id="Links">
-    <a href="./resume.html">My Resume</a>
-    <a href="./projects.html">My Projects</a>
-    <a href="./contactme.html">Contact Me</a>
-    </p>
 
-    <hr class="linksbreak">
 
-    <h2>About Me</h2>
+<nav class="navbar">
+    <ul>
+        <li> <a href="./resume.html">My Resume</a> </li>
+        <li> <a href="./projects.html">My Projects</a> </li>
+        <li> <a href="./contactme.html">Contact Me</a> </li>
+    </ul>
+</nav>
 
-    <hr class ="aboutmebreak">
 
-    <img class="aboutmepic" src="./img/ProfilePic.png" alt="A picture of me on a peak of a mountain">
+<main>
 
-    <p class = "aboutmep">
-    My name is Lieth Dallal I am a Software Developer living in the United States.<br> I have a huge passion for developing games and websites.<br> On this website you will see a link to all of my projects I have created using various programing languages and game engines,<br> along with my resume and a list of my skills!
-    </p>
+<div class="container">
+
+    <div id="mypic">
+        <img class="aboutmepic" src="./img/ProfilePic.png" alt="A picture of me on a peak of a mountain">
+    </div>
+
+    <div id="aboutme">
+        <h2 id="AboutMe">About Me</h2>
+
+        <p class="descrip">
+            My name is Lieth Dallal. <br>I am a Software Developer living in the United States.<br> I have a huge passion for developing impactful applications!<br> On this website, you will find links to all of my projects I created <br>using various programming languages, libraries, and frameworks,<br> along with my resume and contact information!
+        </p>
+    </div>
+
+</div>
+
+</main>
+
+
+
 
     
 </body>
