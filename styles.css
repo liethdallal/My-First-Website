@@ -126,9 +126,11 @@ background-color: black;
 }
 #mypic{
    float: left;
+   margin: 0;
 }
 #aboutme{
     float: right;
+    margin: 0;
 }
 .container{
     display: flex;
@@ -141,7 +143,32 @@ background-color: black;
 }
 #AboutMe {
     font-size: 35px;
+    margin: 0;
 }
 .titles {
     text-align: center;
+}
+@media (max-width: 500px  ){
+    .descrip{
+        font-size: 10px;
+    }
+    #AboutMe {
+        font-size: 15px;
+        margin: 0;
+    }
+    .aboutmepic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;   
+        margin: 0 auto;
+        border: 5px solid black;
+        border-radius: 10px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            gap: 46px;
+        }
 }
