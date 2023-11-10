@@ -9,8 +9,15 @@
     text-decoration: none; 
    
 }
+html, body {
+    min-height: 100%;
+}
+
 body {
-    background-color: aquamarine;
+    background-image: url('./img/background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: black;
     font-weight: bold;
 }
@@ -171,4 +178,8 @@ background-color: black;
             margin-top: 50px;
             gap: 46px;
         }
+}
+#github{
+    height: 50px;
+    width: 120px;
 }
