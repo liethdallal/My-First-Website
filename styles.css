@@ -12,6 +12,9 @@
 html, body {
     min-height: 100%;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background-image: url('./img/background.webp');
@@ -20,6 +23,7 @@ body {
     background-position: center;
     color: black;
     font-weight: bold;
+    overflow-x: hidden;
 }
 .title{
     text-align: center;
@@ -109,7 +113,6 @@ border-radius: 10px;
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(49, 49, 187);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -182,4 +185,25 @@ background-color: black;
 #github{
     height: 50px;
     width: 120px;
+}
+#myprojects{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+#myresume{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+#contactme{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
 }
