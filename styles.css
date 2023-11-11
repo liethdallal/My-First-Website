@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #Links {
     list-style: none;
     display: flex;
@@ -54,33 +58,12 @@ body {
     color: black;
 }
 .aboutmepic{
-display: flex;
-justify-content: center;
-align-items: center;
-width: 32vh;   
-margin: 0 auto;
-border: 5px solid black;
-border-radius: 10px;
-}
-.resumeintro{
-    text-align: left;
-}
-.education{
-    font-size: 18px;
-    color: black;
-}
-.workinfo{
-    font-size: 18px;
-    color: black;
-}
-.work{
-    font-size: 18px;
-    color: black;
-}
-
-.skillsdescription {
-    text-align: center;
-    font-size: 18px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
 }
 
 .landscaperp {
@@ -122,14 +105,14 @@ border-radius: 10px;
     gap: 76px;
 }
 .navbar a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
 .navbar a:hover{
-background-color: black;
+background-color: white;
 }
 .navbar li{
     float:left;
@@ -158,6 +141,89 @@ background-color: black;
 .titles {
     text-align: center;
 }
+#github{
+    height: 50px;
+    width: 120px;
+mix-blend-mode: darken;  
+}
+#myprojects{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+#myresume{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+#contactme{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+a {
+    font-size: 20px;
+}
+/* .box{
+    transform: translateY(100%) translateZ(0);
+    transition: transform 0.6s ease;
+}
+.box.show{
+    transform: translateY(0) translateZ(0);
+} */
+footer {
+    background-image: url('./img/images.jpg');
+    mix-blend-mode: darken;  
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+header {
+    background-image: url('./img/headerpic.avif');
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Set the width to 100% */
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 500px  ){
     .descrip{
         font-size: 10px;
@@ -181,29 +247,4 @@ background-color: black;
             margin-top: 50px;
             gap: 46px;
         }
-}
-#github{
-    height: 50px;
-    width: 120px;
-}
-#myprojects{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 50px;
-    color: black;
-}
-#myresume{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 50px;
-    color: black;
-}
-#contactme{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 50px;
-    color: black;
 }
