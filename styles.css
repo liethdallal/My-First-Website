@@ -2,6 +2,191 @@
     margin: 0;
     padding: 0;
 }
+html, body {
+    min-height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url('./img/background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+    color: black;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+#header-title{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+#navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 76px;
+}
+#navbar li{
+    float:left;
+}
+#navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+#navbar a:hover{
+background-color: white;
+}
+#header-github{
+    height: 50px;
+    width: 120px;
+    mix-blend-mode: darken;  
+}
+#header-linkedin{
+    height: 50px;
+    width: 120px;
+    mix-blend-mode: darken;  
+}
+header {
+    background-image: url('./img/headerpic.avif');
+    background-attachment: fixed;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+}
+#about-me-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 76px;
+}
+#profile-pic-container{
+    float: left;
+    margin: 0;
+ }
+ .profile-pic{
+    border-radius: 50%; 
+    overflow: hidden; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+}
+#about-me-description-container{
+    float: right;
+    margin: 0;
+}
+#about-me-title {
+    font-size: 35px;
+    margin: 0;
+}
+#about-me-description {
+    font-size:25px;
+}
+#achievements-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 76px;   
+}
+#achievements-title{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+/* #my-projects-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 76px;
+} */
+#my-projects-title{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+}
+.project-titles {
+    text-align: center;
+}
+#simon-game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#simongame{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#tile-matching-game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tilematching{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#contact-me-container {
+    background-image: url('./img/footer.jpg');
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#contact-me-title{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+.social-icons-container {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons-container li {
+    margin: 0 10px;
+}
+
+.social-icons-container a {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
+.footer-icon-pics{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
 .overlay {
     position: relative;
     bottom: 0;
@@ -17,240 +202,12 @@
 a:hover .overlay {
     transform: scale(1);
   }
-#Links {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    padding: 20px 0;
-    color: black;
-    color: #FF5733; 
-    text-decoration: none; 
-   
+#footer-sentence{
+    font-size: 30px;
 }
-html, body {
-    min-height: 100%;
-}
-html{
-    scroll-behavior: smooth;
-}
-
-body {
-    background-image: url('./img/background.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: auto;
-    color: black;
-    font-weight: bold;
-    overflow-x: hidden;
-}
-.title{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 50px;
-    color: black;
-}
-.linksbreak{
-    border: none;
-    width: 75%;
-    height: 2px;
-    color: black;
-    background-color: black;
-}
-.aboutmebreak{
-    border: none;
-    width: 12%;
-    height: 2px;
-    color: black;
-    background-color: black;
-    
-}
-
-.aboutmep{
-    text-align: center;
-    font-size: 18px;
-    color: black;
-}
-.aboutmepic{
-    border-radius: 50%; 
-    overflow: hidden; 
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    border: 5px solid black;
-}
-
-.landscaperp {
-    text-align: center;
-    font-size: 18px;
-}
-
-.landscaperimg {
-    width: 700px;
-    height: 500px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-
-.navbar ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 76px;
-}
-.navbar a {
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-.navbar a:hover{
-background-color: white;
-}
-.navbar li{
-    float:left;
-}
-#mypic{
-   float: left;
-   margin: 0;
-}
-#aboutme{
-    float: right;
-    margin: 0;
-}
-.container{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    gap: 76px;
-}
-.descrip {
-    font-size:25px;
-}
-#AboutMe {
-    font-size: 35px;
-    margin: 0;
-}
-.titles {
-    text-align: center;
-}
-#github{
-    height: 50px;
-    width: 120px;
-mix-blend-mode: darken;  
-}
-#myprojects{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 50px;
-    color: black;
-}
-#myresume{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 50px;
-    color: black;
-}
-#contactme{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 50px;
-    color: white;
-}
-a {
-    font-size: 20px;
-}
-footer {
-    background-image: url('./img/footer.jpg');
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-.social-icons {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.social-icons li {
-    margin: 0 10px;
-}
-
-.social-icons a {
-    text-decoration: none;
-    color: green;
-    font-size: 20px;
-}
-header {
-    background-image: url('./img/headerpic.avif');
-    background-attachment: fixed;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    width: 100%; /* Set the width to 100% */
-    height: 100%;
-}
-#gmail{
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-}
-#projectss{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#simongame{
-    width: 800px;
-    height: 500px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-#tilematching{
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 500px  ){
-    .descrip{
-        font-size: 10px;
-    }
-    #AboutMe {
-        font-size: 15px;
-        margin: 0;
-    }
-        .container{
-            display: flex;
-            justify-content: center;
-            margin-top: 50px;
-            gap: 46px;
-        }
+
+
+
 }
