@@ -26,6 +26,7 @@ body {
     font-size: 50px;
     color: black;
 }
+
 #navbar ul{
     list-style-type: none;
     padding: 0px;
@@ -45,30 +46,36 @@ body {
     padding: 15px;
     display: block;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 #navbar a:hover{
-background-color: white;
+background-color: aquamarine;
 }
 #header-github{
-    height: 50px;
-    width: 120px;
+    width: 70px;
+    height: 70px;
     mix-blend-mode: darken;  
 }
 #header-linkedin{
-    height: 50px;
-    width: 120px;
+    width: 70px;
+    height: 70px;
     mix-blend-mode: darken;  
 }
 header {
-    background-image: url('./img/headerpic.avif');
+    background-image: url('./img/header.gif');
     background-attachment: fixed;
+    background-size: cover;
     color: white;
     padding: 20px;
     text-align: center;
     width: 100%; 
     height: 100%;
 }
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
 #about-me-container{
     display: flex;
     justify-content: center;
@@ -98,26 +105,26 @@ header {
 #about-me-description {
     font-size:25px;
 }
-#achievements-container{
+#skills-container{
     display: flex;
     justify-content: center;
     margin-top: 50px;
     gap: 76px;   
 }
-#achievements-title{
+#skills-title{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
     font-size: 50px;
     color: black;
 }
-/* #my-projects-container{
+/* #projects-container{
     display: flex;
     justify-content: center;
     margin-top: 50px;
     gap: 76px;
 } */
-#my-projects-title{
+#projects-title{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
@@ -151,6 +158,7 @@ header {
 }
 #contact-me-container {
     background-image: url('./img/footer.jpg');
+    background-attachment: fixed;
     color: white;
     padding: 20px;
     text-align: center;
@@ -158,6 +166,7 @@ header {
     bottom: 0;
     width: 100%;
 }
+
 #contact-me-title{
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -179,20 +188,21 @@ header {
 
 .social-icons-container a {
     text-decoration: none;
-    color: green;
+    color: white;
     font-size: 20px;
 }
 .footer-icon-pics{
     width: 100px;
     height: 100px;
     cursor: pointer;
+    border-radius: 20%;
 }
 .overlay {
     position: relative;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: black;
     overflow: hidden;
     width: 100%;
     height: 25%;
@@ -206,8 +216,215 @@ a:hover .overlay {
     font-size: 30px;
 }
 
-@media (max-width: 500px  ){
+@media (max-width: 850px  ){
 
+    body {
+        background-image: url('./img/background.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: auto;
+        color: black;
+        font-weight: bold;
+        overflow-x: hidden;
+    }
+    #header-title{
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+        font-size: 30px;
+        color: black;
+    }
+    
+    #navbar ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 26px;
+    }
+    #navbar li{
+        float:left;
+    }
+    #navbar a {
+        color: black;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        font-size: 20px;
+    }
+    #navbar a:hover{
+    background-color: aquamarine;
+    }
+    #header-github{
+        width: 40px;
+        height: 40px;
+        mix-blend-mode: darken;  
+    }
+    #header-linkedin{
+        width: 40px;
+        height: 40px;
+        mix-blend-mode: darken;  
+    }
+    header {
+        background-image: url('./img/header.gif');
+        background-attachment: fixed;
+        background-size: cover;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        width: 100%; 
+        height: 100%;
+    }
+        @keyframes spin {
+          to {
+            transform: rotate(360deg);
+          }
+        }
+    #about-me-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 76px;
+    }
+    #profile-pic-container{
+        float: left;
+        margin: 0;
+     }
+     .profile-pic{
+        border-radius: 50%; 
+        overflow: hidden; 
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        border: 5px solid black;
+    }
+    #about-me-description-container{
+        float: right;
+        margin: 0;
+    }
+    #about-me-title {
+        font-size: 25px;
+        margin: 0;
+    }
+    #about-me-description {
+        font-size:15px;
+    }
+    #skills-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 76px;   
+    }
+    #skills-title{
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+        font-size: 50px;
+        color: black;
+    }
+    /* #projects-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 76px;
+    } */
+    #projects-title{
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+        font-size: 50px;
+        color: black;
+    }
+    .project-titles {
+        text-align: center;
+    }
+    #simon-game-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #simongame{
+        width: 400px;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    #tile-matching-game-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #tilematching{
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    #contact-me-container {
+        background-image: url('./img/footer.jpg');
+        background-attachment: fixed;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    #contact-me-title{
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+        font-size: 50px;
+        color: white;
+    }
+    .social-icons-container {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .social-icons-container li {
+        margin: 0 10px;
+    }
+    
+    .social-icons-container a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    .footer-icon-pics{
+        width: 75px;
+        height: 75px;
+        cursor: pointer;
+        border-radius: 20%;
+    }
+    .overlay {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: black;
+        overflow: hidden;
+        width: 100%;
+        height: 25%;
+        transform: scale(0);
+        transition: .3s ease;
+      }
+    a:hover .overlay {
+        transform: scale(1);
+      }
+    #footer-sentence{
+        font-size: 30px;
+    }
 
 
 }
