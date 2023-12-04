@@ -230,6 +230,8 @@ a:hover .overlay {
 .C{
     border-radius: 10%;
     animation: whitec 1s infinite alternate; 
+    height: 172px ;
+    width: 158px;
 }
 .java{
     border-radius: 10%;
@@ -250,14 +252,20 @@ a:hover .overlay {
 .js{
     border-radius: 10%;
     animation: whitec 1s infinite alternate; 
+    width: 202px;
+    height: 221px;
 }
 .css{
     border-radius: 10%;
     animation: whitec 1s infinite alternate; 
+    width: 202px;
+    height: 221px;
 }
 .html{
     border-radius: 10%;
     animation: whitec 1s infinite alternate; 
+    width: 202px;
+    height: 221px;
 }
 @keyframes whitec {
     0% {
@@ -267,8 +275,32 @@ a:hover .overlay {
       box-shadow: 0 0 10px 5px white, 0 0 15px 10px white; /* Adjust the color as needed */
     }
   }
-
-
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 40px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .image-container:hover .overlay-text {
+    opacity: 1; 
+  }
 
 
 
@@ -554,4 +586,17 @@ a:hover .overlay {
         border-radius: 10%;
         animation: whitec 1s infinite alternate; 
     }
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #000000;
+        color: #fff;
+        padding: 5px 1-px;
+        font-size: 10px;
+        text-align: center;
+        opacity: 0; 
+        transition: opacity 0.3s ease; 
+      }
 }
