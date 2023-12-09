@@ -52,14 +52,13 @@ body {
 background-color: black;
 }
 #header-github{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: white;
     border-radius: 10%;
 }
 #header-linkedin{
-    width: 50px;
-    height: 50px;
+    height: 60px;
     border-radius: 10%;
 }
 header {
@@ -382,7 +381,7 @@ a:hover .overlay {
         border-radius: 10%;
     }
     #header-linkedin{
-        width: 20px;
+        width: 30px;
         height: 20px;
     }
     header {
