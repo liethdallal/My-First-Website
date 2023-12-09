@@ -21,9 +21,8 @@ body {
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
-    font-size: 35px;
-    color: black;
-    background-image: url("./img/header.gif");
+    font-size: 55px;
+    color: white;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -211,10 +210,6 @@ a:hover .overlay {
   }
 #footer-sentence{
     font-size: 25px;
-    background-image: url("./img/header.gif");
-    color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 
@@ -240,6 +235,8 @@ a:hover .overlay {
 .python{
     border-radius: 10%;
     animation: whitec 1s infinite alternate; 
+    width: 152px;
+    height: 152px;
 }
 .express-react{
     border-radius: 10%;
@@ -252,20 +249,20 @@ a:hover .overlay {
 .js{
     border-radius: 10%;
     animation: whitec 1s infinite alternate; 
-    width: 202px;
-    height: 221px;
+    width: 172px;
+    height: 171px;
 }
 .css{
     border-radius: 10%;
     animation: whitec 1s infinite alternate; 
-    width: 202px;
-    height: 221px;
+    width: 152px;
+    height: 171px;
 }
 .html{
     border-radius: 10%;
     animation: whitec 1s infinite alternate; 
-    width: 202px;
-    height: 221px;
+    width: 152px;
+    height: 171px;
 }
 @keyframes whitec {
     0% {
@@ -349,8 +346,7 @@ a:hover .overlay {
         font-family: 'Dancing Script', cursive;
         font-weight: 700;
         font-size: 30px;
-        color: black;
-        background-image: url("./img/header.gif");
+        color: white;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -532,11 +528,7 @@ a:hover .overlay {
         transform: scale(1);
       }
     #footer-sentence{
-        color: black;
         font-size: 22px;
-        background-image: url("./img/header.gif");
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     .C{
         width: 51px;
