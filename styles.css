@@ -289,7 +289,7 @@ a:hover .overlay {
     background-color: #000000;
     color: #fff;
     padding: 10px 20px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     opacity: 0; 
     transition: opacity 0.3s ease; 
@@ -387,8 +387,6 @@ a:hover .overlay {
     }
     header {
         background-image: url('./img/footer.jpg');
-        background-attachment: fixed;
-        background-size: cover;
         color: white;
         text-align: center;
     }
