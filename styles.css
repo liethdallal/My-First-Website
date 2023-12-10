@@ -90,6 +90,8 @@ header {
     display: flex;
     justify-content: center;
     border: 5px solid black;
+    animation: blackr 1s infinite alternate; 
+
 }
 #about-me-description-container{
     float: right;
@@ -137,10 +139,11 @@ header {
     align-items: center;
 }
 #simongame{
-    width: 800px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 #skymap-connect-game-container{
     display: flex;
@@ -148,8 +151,8 @@ header {
     align-items: center;
 }
 #skymapconnect{
-    width: 800px;
-    height: 700px;
+    width: 700px;
+    height: 600px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -210,7 +213,14 @@ a:hover .overlay {
 #footer-sentence{
     font-size: 25px;
 }
-
+@keyframes blackr {
+    0% {
+      box-shadow: 0 0 5px 2px black, 0 0 10px 5px black; /* Adjust the color as needed */
+    }
+    100% {
+      box-shadow: 0 0 10px 5px black, 0 0 15px 10px black; /* Adjust the color as needed */
+    }
+  }
 
 
 
@@ -327,6 +337,54 @@ a:hover .overlay {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 850px  ){
 
     body {
@@ -389,11 +447,6 @@ a:hover .overlay {
         color: white;
         text-align: center;
     }
-        @keyframes spin {
-          to {
-            transform: rotate(360deg);
-          }
-        }
     #about-me-container{
         display: flex;
         justify-content: center;
@@ -407,7 +460,7 @@ a:hover .overlay {
      .profile-pic{
         border-radius: 50%; 
         overflow: hidden; 
-        height: 200px;
+        height: 150px;
         display: flex;
         justify-content: center;
         border: 5px solid black;
