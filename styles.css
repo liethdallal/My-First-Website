@@ -26,7 +26,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+#title-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#mylogo{
+    height: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 #navbar ul{
     list-style-type: none;
     padding: 0px;
@@ -406,6 +415,11 @@ a:hover .overlay {
         color: white;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    #mylogo{
+        height: 45px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     #navbar ul{
