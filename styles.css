@@ -141,6 +141,7 @@ header {
 }
 .project-titles {
     text-align: center;
+    font-size: 50px;
 }
 #simon-game-container{
     display: flex;
@@ -518,6 +519,7 @@ a:hover .overlay {
     }
     .project-titles {
         text-align: center;
+        font-size: 30px;
     }
     #simon-game-container{
         display: flex;
